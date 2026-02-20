@@ -1,60 +1,29 @@
-\# VM2 – Windows Server / Active Directory
+# VM2 – Windows Server / Active Directory
+
+## Informations Générales
 
 
-
-\## Informations Générales
-
-
-
-\- OS : Windows Server 2019/2022
-
-\- IP : 192.168.10.15
-
-\- Hostname : dc01.providence.lan
-
-\- Domaine : providence.lan
-
-\- Rôle : Contrôleur de domaine (AD DS)
-
-
+- OS : Windows Server 2019/2022
+- IP : 192.168.10.15
+- Hostname : dc01.providence.lan
+- Domaine : providence.lan
+- Rôle : Contrôleur de domaine (AD DS)
 
 DNS : Externe (VM1 – Red Hat)
-
-
-
 ---
-
-
-
-\## Services Installés
-
-
+## Services Installés
 
 | Service  | Description                      |
-
 |----------|----------------------------------|
-
 | AD DS    | Active Directory Domain Services |
-
 | Kerberos | Authentification                 |
-
 | LDAP     | Annuaire                         |
-
 | NTDS     | Base AD                          |
-
-
 
 ---
 
-
-
-\## Déploiement
-
-
-
+## Déploiement
 Étapes principales :
-
-
 
 1\. Installation rôle AD DS
 
@@ -71,74 +40,38 @@ DNS : Externe (VM1 – Red Hat)
 ---
 
 
-
-\## Configuration
-
-
+## Configuration
 
 Fichiers / Paramètres importants :
 
+- Base AD : NTDS.dit
+- GPO
+- Sites and Services
+- SPN
 
-
-\- Base AD : NTDS.dit
-
-\- GPO
-
-\- Sites and Services
-
-\- SPN
-
-
-
-\#Les exports sont stockés dans `config/`.
-
-
-
+#Les exports sont stockés dans `config/`.
+---
+## Sécurité
+- Stratégies de mots de passe
+- GPO sécurité
+- Accès administrateurs limité
+- Journaux activés
 ---
 
 
 
-\## Sécurité
+## Sauvegarde
 
 
-
-\- Stratégies de mots de passe
-
-\- GPO sécurité
-
-\- Accès administrateurs limité
-
-\- Journaux activés
-
-
-
+- Windows Backup
+- Export System State
+- Snapshot VM
 ---
 
 
+## Maintenance
 
-\## Sauvegarde
-
-
-
-\- Windows Backup
-
-\- Export System State
-
-\- Snapshot VM
-
-
-
----
-
-
-
-\## Maintenance
-
-
-
-\- dcdiag
-
-\- eventvwr
-
-\- repadmin
+- dcdiag
+- eventvwr
+- repadmin
 
