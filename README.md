@@ -44,9 +44,7 @@ Ce projet vise à démontrer des compétences réelles en administration systèm
 
 ---
 
-## ⚙️ Technologies Utilisées
-
-
+###  Technologies Utilisées
 
 | Domaine          | Technologies                     |
 | ---------------- | ------------ --------------------|
@@ -61,6 +59,7 @@ Ce projet vise à démontrer des compétences réelles en administration systèm
 | Virtualisation   | KVM / QEMU                       |
 
 ---
+
 ##  Structure du Projet
 
 linux-ad-enterprise-lab/
