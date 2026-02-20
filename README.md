@@ -65,6 +65,8 @@ Ce projet vise à démontrer des compétences réelles en administration systèm
 
 linux-ad-enterprise-lab/
 
+``` bash
+
 ├── README.md
 ├── architecture/
 ├── vm1-redhat-dns\_dhcp/
@@ -74,7 +76,7 @@ linux-ad-enterprise-lab/
 ├── vm5-ubuntu-zabbix/
 ├── vm6-redhat-web/
 └── docs/
-
+```
 ---
 ## 🚀 Déploiement
 
@@ -153,7 +155,9 @@ DNS : Externe (VM1)
 
 Les preuves techniques sont disponibles dans :
 
-```docs/tests/ ```
+```bash 
+       docs/tests/ 
+```
 
 Elles couvrent :
 - Résolution DNS (SRV, A, PTR)
@@ -168,14 +172,12 @@ Chaque test est issu de commandes réelles exécutées sur les serveurs.
 ---
 
 
-
 ##  Supervision
 
 - Disponibilité des services
 - CPU / RAM / Disques
 - Alertes mail
-- Historique des performances
-- 
+- Historique des performances 
 ---
 ##  Sauvegarde
 - Sauvegarde des configurations
@@ -199,7 +201,6 @@ Certaines procédures sont ensuite documentées et partiellement automatisées p
 - Architecture réseau
 - Documentation technique
 --- 
-
 ##  Perspectives d’Évolution
 - Haute disponibilité DNS / AD
 - MFA
@@ -207,10 +208,13 @@ Certaines procédures sont ensuite documentées et partiellement automatisées p
 - Ansible
 - Cloud hybride
 ---
-## Auteur
+
+### Auteur
+
 Nom : PROVIDENCE GOMA 
 LinkedIn :  
 Email : providence@gmail.com 
+
 ---
 ## Licence
 Projet pédagogique – Usage libre
