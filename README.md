@@ -46,8 +46,8 @@ Ce projet vise à démontrer des compétences réelles en administration systèm
 
 ###  Technologies Utilisées
 
-| Domaine          | Technologies                     |
-| ---------------- | ------------ --------------------|
+| Domaine          |         Technologies             |
+| -----------------| ------------ --------------------|
 | Annuaire         | Active Directory, Kerberos, LDAP |
 | DNS / DHCP       | BIND9, ISC-DHCP, Chrony          |
 | Authentification | SSSD, PAM, realmd                |
@@ -62,9 +62,8 @@ Ce projet vise à démontrer des compétences réelles en administration systèm
 
 ##  Structure du Projet
 
-linux-ad-enterprise-lab/
-
 ``` bash
+linux-ad-enterprise-lab/
 ├── README.md
 ├── architecture/
 ├── vm1-redhat-dns\_dhcp/
