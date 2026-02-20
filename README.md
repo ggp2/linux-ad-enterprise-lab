@@ -66,7 +66,6 @@ Ce projet vise à démontrer des compétences réelles en administration systèm
 linux-ad-enterprise-lab/
 
 ``` bash
-
 ├── README.md
 ├── architecture/
 ├── vm1-redhat-dns\_dhcp/
@@ -76,6 +75,7 @@ linux-ad-enterprise-lab/
 ├── vm5-ubuntu-zabbix/
 ├── vm6-redhat-web/
 └── docs/
+
 ```
 ---
 ## 🚀 Déploiement
