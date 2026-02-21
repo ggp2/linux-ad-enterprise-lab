@@ -1,5 +1,6 @@
 #!/bin/bash
 
-dnf install -y postfix dovecot openldap-clients
+apt update
 
-systemctl enable --now postfix dovecot
+apt install -y zabbix-server-mysql zabbix-frontend-php \
+zabbix-agent mysql-server nginx
